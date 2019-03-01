@@ -6,7 +6,7 @@ CRC
      Give a customer's infromation to Front Desk Receoptionist.<br>
      Get status through the Cell Phone.<br>
      Send decision through the Cell Phone.<br>
-     - Collaborator : <br> 
+     - Collaborator : 
      Front Desk Receptionist, Cell Phone
      
   2. - Class name :
@@ -15,18 +15,18 @@ CRC
      Add customer’s information to POS Machine.<br>
      Request table setting to Server.<br>
      Conduct Customers to table.<br>
-     - Colloborator : <br>
+     - Colloborator : 
        Customer, Server, POS Machine<br>
   3. - Class name : Server<br>
      - Responsibilities : <br>
      Check the table status.<br>
      Send table status to Front Desk Receptionist.<br>
-     - Collaborator : <br>
+     - Collaborator : 
      Front Desk Receptionist, Table<br>
   4. - Classname : Table<br>
      - Responsibilities : <br>
        Change state.<br>
-     - Collaborators : <br>
+     - Collaborators : 
      Server<br>
   5. - Classname :
   Cellphone<br>
@@ -38,7 +38,7 @@ CRC
      - Responsibilities : <br>
      Get Customer’s information from the Front Desk Receptionist.<br>
      Send Message to Cell Phone.<br>
-     - Collaborators : <br>
+     - Collaborators : 
      Front Desk Receptionist, Cellphone of Customers<br>
 
 
