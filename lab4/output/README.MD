@@ -32,6 +32,7 @@ Design Pattern
  ⁃	Observer Pattern
     The Front Desk Receptionist is the Observer and the Server is the Subject.
     When table status changed, the Server let the Front Desk Receptionist knows status of each table.
+    
  ⁃	State Pattern
     When table status changed, the Server gives a state of the table to the Front Desk Receptionist.
     Also, Front Desk Receptionist send a message to the Customer through the POS machine according to table status.
