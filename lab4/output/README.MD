@@ -1,4 +1,5 @@
 CRC
+
   1. Class name : Customer
      Responsibilites : Give a customer's infromation to Front Desk Receoptionist,
                        Get status through the Cell Phone.
@@ -25,7 +26,9 @@ CRC
                         Send Message to Cell Phone.
      Collaborators : Front Desk Receptionist, Cellphone of Customers
 
+
 Design Pattern
+
  ⁃	Observer Pattern
     The Front Desk Receptionist is the Observer and the Server is the Subject.
     When table status changed, the Server let the Front Desk Receptionist knows status of each table.
