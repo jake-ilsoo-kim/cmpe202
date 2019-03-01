@@ -1,6 +1,6 @@
 CRC
 
-  1. - Class name : <br>
+  1. - Class name : 
      Customer<br>
      - Responsibilites : <br>
      Give a customer's infromation to Front Desk Receoptionist.<br>
@@ -9,7 +9,7 @@ CRC
      - Collaborator : <br> 
      Front Desk Receptionist, Cell Phone
      
-  2. - Class name : <br>
+  2. - Class name :
        Front Desk Receptionist<br>
      - Responsibilities : <br>
      Add customer’s information to POS Machine.<br>
@@ -28,7 +28,7 @@ CRC
        Change state.<br>
      - Collaborators : <br>
      Server<br>
-  5. - Classname : <br>
+  5. - Classname :
   Cellphone<br>
      - Responsibilities : <br>
      Give a table status to the Customer.<br>
