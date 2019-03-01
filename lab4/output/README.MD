@@ -1,32 +1,33 @@
 CRC
 
-  1. Class name : 
-                Customer <br>
-     Responsibilites : <blockquote> Give a customer's infromation to Front Desk Receoptionist.<br></blockquote>
-                       <blockquote> Get status through the Cell Phone. <br></blockquote>
-                       <blockquote> Send decision through the Cell Phone. <br></blockquote>
-     Collaborator : Front Desk Receptionist, Cell Phone
+  1. - Class name : 
+     Customer<br>
+     - Responsibilites : <br>
+     Give a customer's infromation to Front Desk Receoptionist.<br>
+     Get status through the Cell Phone.<br>
+     Send decision through the Cell Phone.<br>
+     - Collaborator : Front Desk Receptionist, Cell Phone
      
-  2. Class name : Front Desk Receptionist
-     Responsibilities : Add customer’s information to POS Machine.
-                        Request table setting to Server.
-                        Conduct Customers to table.
-     Colloborator : Customer, Server, POS Machine
-  3. Class name : Server
-     Responsibilities : Check the table status.
-                        Send table status to Front Desk Receptionist.
-     Collaborator : Front Desk Receptionist, Table
-  4. Classname : Table
-     Responsibilities : Change state.
-     Collaborators : Server
-  5. Classname : Cellphone
-     Responsibilities : Give a table status to the Customer.
-                        Reply SMS to POS Machine.
-     Collaborators : Customer, POS Machine
-  6. Classname : POS Machine
-     Responsibilities : Get Customer’s information from the Front Desk Receptionist.
-                        Send Message to Cell Phone.
-     Collaborators : Front Desk Receptionist, Cellphone of Customers
+  2. - Class name : Front Desk Receptionist<br>
+     - Responsibilities : Add customer’s information to POS Machine.<br>
+                        Request table setting to Server.<br>
+                        Conduct Customers to table.<br>
+     - Colloborator : Customer, Server, POS Machine<br>
+  3. - Class name : Server<br>
+     - Responsibilities : Check the table status.<br>
+                        Send table status to Front Desk Receptionist.<br>
+     - Collaborator : Front Desk Receptionist, Table<br>
+  4. - Classname : Table<br>
+     - Responsibilities : Change state.<br>
+     - Collaborators : Server<br>
+  5. - Classname : Cellphone<br>
+     - Responsibilities : Give a table status to the Customer.<br>
+                        Reply SMS to POS Machine.<br>
+     - Collaborators : Customer, POS Machine<br>
+  6. - Classname : POS Machine<br>
+     - Responsibilities : Get Customer’s information from the Front Desk Receptionist.<br>
+                        Send Message to Cell Phone.<br>
+     - Collaborators : Front Desk Receptionist, Cellphone of Customers<br>
 
 
 Design Pattern
