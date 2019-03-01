@@ -1,10 +1,15 @@
 CRC
 
   1. Class name : Customer
+  
      Responsibilites : Give a customer's infromation to Front Desk Receoptionist,
+     
                        Get status through the Cell Phone.
+                       
                        Send decision through the Cell Phone.
+                       
      Collaborator : Front Desk Receptionist, Cell Phone
+     
   2. Class name : Front Desk Receptionist
      Responsibilities : Add customer’s information to POS Machine.
                         Request table setting to Server.
