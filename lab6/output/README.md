@@ -1,12 +1,10 @@
 
- Composite and Strategy Patterns.
+### Design Pattern
+Composite and Strategy Patterns.
  
- ![Results](https://github.com/jake-ilsoo-kim/cmpe202/tree/master/lab6/output/DemoRun.png)
  
- 
-
-Results
-
+### Results
+```
             FIVE GUYS
          BURGERS AND FRIES
           STORE # CA-1294
@@ -58,5 +56,5 @@ Sandwiches #1
 Register:1  Trans Sqe No: 57845
 Cashier:Sakda* S.
 
-
+```
 
