@@ -1,10 +1,12 @@
 
  Composite and Strategy Patterns.
  
+ ![Results](https://github.com/jake-ilsoo-kim/cmpe202/master/lab6/output/results.jpg)
+ 
+ 
 
+Results
 
-
-=================================
             FIVE GUYS
          BURGERS AND FRIES
           STORE # CA-1294
@@ -38,7 +40,7 @@ Cashier:Sakda* S.
  Don't throw away your receipt!!! 
 
 
-=================================
+
 Patties - 1
 
 Order Number : 45
