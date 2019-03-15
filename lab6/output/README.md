@@ -13,6 +13,7 @@ Strategy Pattern
  
 ### Results
 ```
+=================================
             FIVE GUYS
          BURGERS AND FRIES
           STORE # CA-1294
@@ -46,7 +47,7 @@ Cashier:Sakda* S.
  Don't throw away your receipt!!! 
 
 
-
+=================================
 Patties - 1
 
 Order Number : 45
@@ -63,6 +64,8 @@ Sandwiches #1
 1     LTL CAJ
 Register:1  Trans Sqe No: 57845
 Cashier:Sakda* S.
+
+
 
 ```
 
