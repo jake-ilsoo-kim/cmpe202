@@ -2,11 +2,11 @@
 ### Design Pattern
 Composite Pattern and Strategy Pattern
 
-Composite Pattern
+1. Composite Pattern
  - Component class is an interface.
  - Composite class implements Component class.
  
-Strategy Pattern
+2. Strategy Pattern
  - PackingSlip class and paperReceipt class are ConcreteStrategy.
  - Print class is an interface and Strategy.
  - Strategy Pattern is used for differences between PackingSlip class and paperReceipt class.
