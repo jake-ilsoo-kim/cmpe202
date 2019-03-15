@@ -1,7 +1,7 @@
 
  Composite and Strategy Patterns.
  
- ![Results](https://github.com/jake-ilsoo-kim/cmpe202/master/lab6/output/results.jpg)
+ ![Results](https://github.com/jake-ilsoo-kim/cmpe202/tree/master/lab6/output/DemoRun.PNG)
  
  
 
