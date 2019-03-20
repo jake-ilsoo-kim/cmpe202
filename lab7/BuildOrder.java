@@ -7,7 +7,7 @@ public class BuildOrder {
         Composite order = new Composite( "Order" ) ;
         
         // 1st CustomBurger
-        CustomBurger customBurger1 = new CustomBurger( "Build Your Own Burger" ) ;
+        CustomBurger customBurger1 = new CustomBurger( "\n\nBuild Your Own Burger" ) ;
        
         //Burger - Organic Biscon* +4.00 1/2lb. +12.00 On a Bum + 0;
         Burger b = new Burger( "Burger Options" ) ;
@@ -72,7 +72,7 @@ public class BuildOrder {
         
         
         // 2nd CustomBurger
-        CustomBurger customBurger2 = new CustomBurger( "\nBuild Your Own Burger" ) ;
+        CustomBurger customBurger2 = new CustomBurger( "\n\nBuild Your Own Burger" ) ;
         
         //Burger - Hormone & Antibiotic Free Beef* +0 1/3lb. +9.00 On a Bum + 0;
         Burger b2 = new Burger( "Burger Options" ) ;
