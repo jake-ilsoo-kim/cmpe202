@@ -1,27 +1,28 @@
-
-/**
- * Write a description of class Bun here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class Bun extends LeafDecorator
 {
-    // instance variables - replace the example below with your own
-    
     private String[] options ;
+    
     
     public Bun( String d )
     {
         super(d) ;
     }
     
-    // premium topping +1.50
+    //Gluten-Free Bun is +1.00, Hawaiian Bun is +1.00, Pretzel Bun is + 0.50
     public void setOptions( String[] options )
     {
         this.options = options ;
         if ( options.length > 0 )
-            this.price += options.length * 1.50 ;
+            //this.price += (options.length-1) * 1.00 ;
+            
+            for ( int i = 0; i<options.length; i++ )
+        {
+            if ( "Gluten-Free Bun".equals(options[i]) ) this.price += 1.00 ;
+            if ( "Hawaiian Bun".equals(options[i]) ) this.price += 1.00 ;
+            if ( "Pretzel Bun".equals(options[i]) ) this.price += 0.50 ;
+             
+        }
+        
     }
     
     public String getDescription() 
@@ -34,4 +35,5 @@ public class Bun extends LeafDecorator
         }        
         return desc ;
     }
+    
 }
