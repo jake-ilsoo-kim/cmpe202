@@ -27,25 +27,11 @@ public class CreditCardNum implements IDisplayComponent, IKeyEventHandler
 		
 		if (ch.equalsIgnoreCase("x")&& cnt>=0 && cnt < 16)
 		{
-			//cnt=cnt-1;
 			number = number.substring(0,  number.length()-1);
-//			if( cnt == 4 || cnt == 8 || cnt ==12 )
-//			{
-//				number = number.substring(0,  number.length()-1);
-//				cnt = cnt-1;
-//			}
-				//System.err.println("CardNum.ch =" +ch);
-	    		//System.err.println("CardNum.cnt =" +cnt);
 		}
 		else if ( !ch.equalsIgnoreCase("x") && cnt <= 16 )
 		{
-//			if( cnt == 5 || cnt == 9 || cnt ==13 )
-//			{
-//				number += " ";
-//			}
 			number += ch ;
-				//System.err.println("CardNum.ch =" +ch);
-	    		//System.err.println("CardNum.cnt =" +cnt);
 		}
 		else if ( nextHandler != null )
 		{
