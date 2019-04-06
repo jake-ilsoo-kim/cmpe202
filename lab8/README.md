@@ -7,4 +7,4 @@ Patterns
 
  2. Decorator
   - For using the display of CreditCard Number and credit card Exp I use Decorator pattern. 
-  - It makes a space between CreditCard Number. And it puts "/" in credit card Exp.
+  - It makes a space between CreditCard Number. And it puts "/" in CreditCard Exp.
