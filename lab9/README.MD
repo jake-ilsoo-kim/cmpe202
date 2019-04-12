@@ -5,22 +5,22 @@ I used Lambda for Decorator Pattern.
 
 Since Lambda can define the internal implementation code of a function, it is not necessary to create each ConcreteCodinator class.
 
-I have a Component Interface.
+I have a Component Interface and another class.
 
 
-ConcreteComponent
+- ConcreteComponent
 ```
 Component ConcreteComponent = () -> {
 			return "Hello World!";
 		};
 ```
 
-ConcreateDecoratorA
+- ConcreateDecoratorA
 ```
 Component ConcreateDecoratorA = () ->  "<em>" + ConcreteComponent.operation() + "</em>";
 ```
 
-ConcreateDecoratorB
+- ConcreateDecoratorB
 ```
 Component ConcreateDecoratorB = () ->  "<h1>" + ConcreateDecoratorA.operation() + "</h1>";
 ```		
