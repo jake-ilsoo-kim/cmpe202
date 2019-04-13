@@ -27,7 +27,7 @@ Component ConcreateDecoratorB = () ->  "<h1>" + ConcreateDecoratorA.operation() 
 ```		
     
 
-Using Lamda, each ConcreateDecorator can be made faster and more convenient.
+Using Lambda, each ConcreateDecorator can be made faster and more convenient.
 
   
   
