@@ -38,6 +38,10 @@ GumballMachineV2
 
 
 # Compare "LAB #1 - Code Maintainability" with the Feature IDE / AspectJ solution
-
+ In lab1, with using a BlueJ, I made 3 different types of machines.
+ Depend on what type of gumball machine, an accepted coin is different.
+ However, in lab10 with the Feature IDE and using AspectJ, I don't need to make each type of machines.
+ When we change the Configuration of default.config, classes in a folder is automatically changed. So, it's easy to adjust.
+ 
  
 
