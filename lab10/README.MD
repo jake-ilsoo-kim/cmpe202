@@ -1,5 +1,6 @@
 Lab10
 
+
 GumballMachineV1
 - COINS50 - Config and Output 
 ![alt Output](https://github.com/jake-ilsoo-kim/cmpe202/blob/master/lab10/output/GumballMachineV1-COINS50-ConfigAndOutput.png)
@@ -37,5 +38,6 @@ GumballMachineV2
 
 
 Compare "LAB #1 - Code Maintainability" with the Feature IDE / AspectJ solution
-- 
+
+
 
