@@ -1,4 +1,4 @@
-Lab10
+#Lab10
 
 
 GumballMachineV1
@@ -37,7 +37,7 @@ GumballMachineV2
 
 
 
-Compare "LAB #1 - Code Maintainability" with the Feature IDE / AspectJ solution
+#Compare "LAB #1 - Code Maintainability" with the Feature IDE / AspectJ solution
 
 
 
